@@ -1,0 +1,21 @@
+module.exports = {
+    USER_CREATED:"User created please verify your EMAIL",
+    TOKEN_ERROR: "Token not correct.",
+    NO_TOKEN: "Token required to access API.",
+    INVALID_BODY:"Request body is invalid.",
+    DATA_SAVED: "Request completed and data saved.",
+    DATA_RETRIEVED:"Request completed and data retrieved.",
+    DATA_DELETED:"Request completed and data deleted.",
+    DATA_UPDATED:"Request completed and data updated.",
+    PASSOWRD_MISMATCH:"Old password didn't match",
+    PASSOWRD_ERROR:"Password didn't match",
+    PASSWORD_UPDATED:"Password has been updated",
+    USER_NOTFOUND:"User doesn't exist",
+    USER_SIGNEDIN:"User is signed-in",
+    PASSWORD_SENT:"Password sent to email",
+    CODE_UNAVAILABLE:"Code already taken",
+    CODE_AVAILABLE:"Code is available",
+    REGISTRATION_ADDED:"Registration Number added to user.",
+    REGISTRATION_BOUGHT:"Auto registration Number(s) added to user.",
+    WRONG_REGISTER:"Register number is wrong or not yours"
+};

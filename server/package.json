@@ -1,0 +1,35 @@
+{
+  "name": "movil",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "DMechs",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.5",
+    "dotenv": "^6.1.0",
+    "ejs": "^1.0.0",
+    "express": "^4.16.4",
+    "express-validator": "^5.3.0",
+    "generate-password": "^1.4.1",
+    "jsonwebtoken": "^8.1.1",
+    "lodash": "^4.17.11",
+    "mongoose": "^5.3.8",
+    "mongoose-immutable": "0.0.2",
+    "mongoose-immutable-plugin": "^1.0.1",
+    "nodemailer": "^4.6.8",
+    "nodemailer-express-handlebars": "^3.0.0",
+    "promise": "^8.0.2",
+    "sequential-ids": "0.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.5"
+  }
+}
