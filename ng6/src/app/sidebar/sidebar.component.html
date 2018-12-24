@@ -1,0 +1,29 @@
+<nav>
+  <ul>
+      <li>
+          <a routerLink="app-login-wrapper" [class.activated]="currentUrl.includes('login')">
+            <i class="material-icons">verified_user</i>
+          </a>
+        </li>
+      <li>
+          <a routerLink="create-user" [class.activated]="currentUrl == '/create-user'">
+            <i class="material-icons">face</i>
+          </a>
+        </li>
+    <li>
+      <a routerLink="" [class.activated]="currentUrl == '/'">
+        <i class="material-icons">supervised_user_circle</i>
+      </a>
+    </li>
+    <li>
+      <a routerLink="home" [class.activated]="currentUrl.includes('/home')">
+        <i class="material-icons">home</i>
+      </a>
+    </li>
+    <li>
+        <a routerLink="posts" [class.activated]="currentUrl == '/posts'">
+          <i class="material-icons">message</i>
+        </a>
+      </li>
+  </ul>
+</nav>
